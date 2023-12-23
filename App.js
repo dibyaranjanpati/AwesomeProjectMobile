@@ -1,20 +1,35 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StatusBar } from "expo-status-bar";
+import { StyleSheet, Text, View } from "react-native";
+import SecListOfRn from "./BasicOfRn/SecListOfRn";
+import ClassComOfRn from "./BasicOfRn/ClassComOfRn";
+// import SimpleForn from "./BasicOfRn/SimpleForn";
+// import Textinput from "./BasicOfRn/TextInput";
+// import TextNdButton from "./BasicOfRn/TextNdButton";
+// import ListInRn from "./BasicOfRn/ListInRn";
+// import DynamicGrid from "./BasicOfRn/DynamicGrid";
+// import ComInLoopFlatList from "./BasicOfRn/ComInLoopFlatList";
+// import SectionListOfRn from "./BasicOfRn/SectionListOfRn";
+// import SectionListRn from "./BasicOfRn/SectionListRn";
+// import SecListOfRn from "./BasicOfRn/SecListOfRn";
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    // <View style={styles.container}>
+    //   <Text>Yes it run on you phone without the usb cable </Text>
+    //   <Text>its happen again </Text>
+    //   <StatusBar style="auto" />
+    // </View>
+    <>
+      <ClassComOfRn />
+    </>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    backgroundColor: "#fff",
+    alignItems: "center",
+    justifyContent: "center",
   },
 });
