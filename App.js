@@ -2,6 +2,9 @@ import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
 import SecListOfRn from "./BasicOfRn/SecListOfRn";
 import ClassComOfRn from "./BasicOfRn/ClassComOfRn";
+import UseEffect from "./BasicOfRn/UseEffect";
+import ShowHideCop from "./BasicOfRn/ShowHideCop";
+import UnMountUseEffect from "./BasicOfRn/UnMountUseEffect";
 // import SimpleForn from "./BasicOfRn/SimpleForn";
 // import Textinput from "./BasicOfRn/TextInput";
 // import TextNdButton from "./BasicOfRn/TextNdButton";
@@ -20,7 +23,7 @@ export default function App() {
     //   <StatusBar style="auto" />
     // </View>
     <>
-      <ClassComOfRn />
+      <UnMountUseEffect />
     </>
   );
 }
