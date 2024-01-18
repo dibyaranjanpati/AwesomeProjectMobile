@@ -5,6 +5,10 @@ import ClassComOfRn from "./BasicOfRn/ClassComOfRn";
 import UseEffect from "./BasicOfRn/UseEffect";
 import ShowHideCop from "./BasicOfRn/ShowHideCop";
 import UnMountUseEffect from "./BasicOfRn/UnMountUseEffect";
+import FlexResponsive from "./BasicOfRn/FlexResponsive";
+import ButtonStyle from "./BasicOfRn/ButtonStyle";
+import RadioButtom from "./BasicOfRn/RadioButtom";
+import ActivityIndicater from "./BasicOfRn/ActivityIndicater";
 // import SimpleForn from "./BasicOfRn/SimpleForn";
 // import Textinput from "./BasicOfRn/TextInput";
 // import TextNdButton from "./BasicOfRn/TextNdButton";
@@ -23,7 +27,7 @@ export default function App() {
     //   <StatusBar style="auto" />
     // </View>
     <>
-      <UnMountUseEffect />
+      <ActivityIndicater />
     </>
   );
 }
