@@ -9,6 +9,10 @@ import FlexResponsive from "./BasicOfRn/FlexResponsive";
 import ButtonStyle from "./BasicOfRn/ButtonStyle";
 import RadioButtom from "./BasicOfRn/RadioButtom";
 import ActivityIndicater from "./BasicOfRn/ActivityIndicater";
+import ModalInReactNetive from "./BasicOfRn/ModalInReactNetive";
+import PressableInRN from "./BasicOfRn/PressableInRN";
+import StatusCodeinRN from "./BasicOfRn/StatusCodeinRN";
+import WebViewInRn from "./BasicOfRn/WebViewInRn";
 // import SimpleForn from "./BasicOfRn/SimpleForn";
 // import Textinput from "./BasicOfRn/TextInput";
 // import TextNdButton from "./BasicOfRn/TextNdButton";
@@ -27,7 +31,7 @@ export default function App() {
     //   <StatusBar style="auto" />
     // </View>
     <>
-      <ActivityIndicater />
+      <WebViewInRn />
     </>
   );
 }
