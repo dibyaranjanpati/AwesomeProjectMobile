@@ -13,6 +13,11 @@ import ModalInReactNetive from "./BasicOfRn/ModalInReactNetive";
 import PressableInRN from "./BasicOfRn/PressableInRN";
 import StatusCodeinRN from "./BasicOfRn/StatusCodeinRN";
 import WebViewInRn from "./BasicOfRn/WebViewInRn";
+import CustomModalInRn from "./BasicOfRn/CustomModalInRn";
+import StackNevInRn from "./BasicOfRn/StackNevInRn";
+import TabNavOfRn from "./BasicOfRn/TabNavOfRn";
+import ApiCallInRn from "./BasicOfRn/ApiCallInRn";
+import GetdatafromJsonApi from "./BasicOfRn/GetdatafromJsonApi";
 // import SimpleForn from "./BasicOfRn/SimpleForn";
 // import Textinput from "./BasicOfRn/TextInput";
 // import TextNdButton from "./BasicOfRn/TextNdButton";
@@ -31,7 +36,7 @@ export default function App() {
     //   <StatusBar style="auto" />
     // </View>
     <>
-      <WebViewInRn />
+      <GetdatafromJsonApi />
     </>
   );
 }
