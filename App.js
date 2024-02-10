@@ -18,6 +18,8 @@ import StackNevInRn from "./BasicOfRn/StackNevInRn";
 import TabNavOfRn from "./BasicOfRn/TabNavOfRn";
 import ApiCallInRn from "./BasicOfRn/ApiCallInRn";
 import GetdatafromJsonApi from "./BasicOfRn/GetdatafromJsonApi";
+import PostApiInputFeild from "./BasicOfRn/PostApiInputFeild";
+import CrudWithJsonApi from "./Components/CrudWithJsonApi";
 // import SimpleForn from "./BasicOfRn/SimpleForn";
 // import Textinput from "./BasicOfRn/TextInput";
 // import TextNdButton from "./BasicOfRn/TextNdButton";
@@ -36,7 +38,7 @@ export default function App() {
     //   <StatusBar style="auto" />
     // </View>
     <>
-      <GetdatafromJsonApi />
+      <CrudWithJsonApi />
     </>
   );
 }
